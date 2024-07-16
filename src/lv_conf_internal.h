@@ -199,7 +199,7 @@
 #  ifdef CONFIG_LV_TICK_CUSTOM_INCLUDE
 #    define LV_TICK_CUSTOM_INCLUDE CONFIG_LV_TICK_CUSTOM_INCLUDE
 #  else
-#    define  LV_TICK_CUSTOM_INCLUDE  "Arduino.h"         /*Header for the system time function*/
+#    define  LV_TICK_CUSTOM_INCLUDE  "stdlib.h"         /*Header for the system time function*/
 #  endif
 #endif
 #ifndef LV_TICK_CUSTOM_SYS_TIME_EXPR
